@@ -1,0 +1,22 @@
+# Python requirements for script utilities
+# The scripts in this directory (update_verses.py, remove_fields.py) 
+# only use standard library modules (csv, json, os).
+# No external pip packages are required.
+fastapi==0.111.0
+uvicorn==0.30.1
+openai
+
+transformers==4.38.2
+tokenizers==0.15.2
+accelerate==0.30.1
+
+torch>=2.1.0
+
+sentence-transformers==2.7.0
+faiss-cpu==1.7.4
+
+numpy>=1.24.0
+scikit-learn>=1.3.0
+
+pydantic>=2.7.0
+requests>=2.31.0
